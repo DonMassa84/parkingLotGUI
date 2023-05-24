@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_2LekkPJ2Ee23mfmULa5lzg" name="ParkingLotGUI">
+    <eAnnotations xmi:id="_66bnAPJ2Ee23mfmULa5lzg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_66bnAfJ2Ee23mfmULa5lzg" source="codegen">
+        <details xmi:id="_66bnAvJ2Ee23mfmULa5lzg" key="codegenDirectory" value="/ParkingLotGUI/src"/>
+        <details xmi:id="_7ixZYPJ2Ee23mfmULa5lzg" key="AssociatedSourceCode" value="/ParkingLotGUI/src/GarageGUI.java;27664482/1;/ParkingLotGUI/src/GarageManager.java;3013616744/1;/ParkingLotGUI/src/Application.java;1636279944/1;/ParkingLotGUI/src/Car.java;2073182354/1;/ParkingLotGUI/src/Garage.java;3714342189/1;/ParkingLotGUI/src/GarageDriver.java;1462676567/1;/ParkingLotGUI/src/Motorcycle.java;3751949008/1;/ParkingLotGUI/src/ParkingLot.java;1090311846/1;/ParkingLotGUI/src/ParkingSpace.java;191768995/1;/ParkingLotGUI/src/Vehicle.java;2825599801/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_66f4cPJ2Ee23mfmULa5lzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_66gfgPJ2Ee23mfmULa5lzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_66gfgfJ2Ee23mfmULa5lzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_66gfgvJ2Ee23mfmULa5lzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_66gfg_J2Ee23mfmULa5lzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_66hGkPJ2Ee23mfmULa5lzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_66hGkfJ2Ee23mfmULa5lzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_66htoPJ2Ee23mfmULa5lzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_66kJ4PJ2Ee23mfmULa5lzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_66AJMPJ2Ee23mfmULa5lzg" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_66DMgPJ2Ee23mfmULa5lzg" name="swing">
+        <packagedElement xmi:type="uml:Class" xmi:id="_69aCgPJ2Ee23mfmULa5lzg" name="JFrame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_69cewPJ2Ee23mfmULa5lzg" name="JTextField"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_69eT8PJ2Ee23mfmULa5lzg" name="JTextArea"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_66FBsPJ2Ee23mfmULa5lzg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_66FBsfJ2Ee23mfmULa5lzg" name="awt">
+        <packagedElement xmi:type="uml:Package" xmi:id="_66FowPJ2Ee23mfmULa5lzg" name="event">
+          <packagedElement xmi:type="uml:Class" xmi:id="_69F5cPJ2Ee23mfmULa5lzg" name="ActionEvent"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_69Kx8PJ2Ee23mfmULa5lzg" name="ActionListener"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_66XVkPJ2Ee23mfmULa5lzg" name="GarageGUI">
+      <ownedAttribute xmi:id="_69jzgPJ2Ee23mfmULa5lzg" name="frame" visibility="private" type="_69aCgPJ2Ee23mfmULa5lzg" association="_6-ZhAPJ2Ee23mfmULa5lzg"/>
+      <ownedAttribute xmi:id="_69lBofJ2Ee23mfmULa5lzg" name="licensePlateField" visibility="private" type="_69cewPJ2Ee23mfmULa5lzg" association="_6-dycfJ2Ee23mfmULa5lzg"/>
+      <ownedAttribute xmi:id="_69mPwPJ2Ee23mfmULa5lzg" name="outputArea" visibility="private" type="_69eT8PJ2Ee23mfmULa5lzg" association="_6-fnofJ2Ee23mfmULa5lzg"/>
+      <ownedAttribute xmi:id="_69rIQPJ2Ee23mfmULa5lzg" name="garage" visibility="private" type="_69gwMPJ2Ee23mfmULa5lzg" association="_6-hc0fJ2Ee23mfmULa5lzg"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6-AfcPJ2Ee23mfmULa5lzg" name="GarageGUI" specification="_66mmIPJ2Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_6-AfcfJ2Ee23mfmULa5lzg" type="_66XVkPJ2Ee23mfmULa5lzg" direction="return"/>
+        <language>java</language>
+        <body>garage = new Garage(3, 5); // 3 Etagen, 5 Parkplätze pro Etage&#xD;
+     initComponents();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6-H0MPJ2Ee23mfmULa5lzg" name="initComponents" specification="_66yzYPJ2Ee23mfmULa5lzg">
+        <language>java</language>
+        <body>frame = new JFrame(&quot;Parkhaus-Simulator&quot;);&#xD;
+     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+     frame.setSize(600, 400);&#xD;
+&#xD;
+     Container contentPane = frame.getContentPane();&#xD;
+     contentPane.setLayout(new BorderLayout());&#xD;
+&#xD;
+     JPanel inputPanel = new JPanel();&#xD;
+     inputPanel.setLayout(new FlowLayout());&#xD;
+     contentPane.add(inputPanel, BorderLayout.NORTH);&#xD;
+&#xD;
+     licensePlateField = new JTextField(10);&#xD;
+     inputPanel.add(licensePlateField);&#xD;
+&#xD;
+     JButton parkCarButton = new JButton(&quot;Auto parken&quot;);&#xD;
+     inputPanel.add(parkCarButton);&#xD;
+     parkCarButton.addActionListener(new ActionListener() {&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+             parkCar();&#xD;
+         }&#xD;
+     });&#xD;
+&#xD;
+     JButton parkMotorcycleButton = new JButton(&quot;Motorrad parken&quot;);&#xD;
+     inputPanel.add(parkMotorcycleButton);&#xD;
+     parkMotorcycleButton.addActionListener(new ActionListener() {&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+             parkMotorcycle();&#xD;
+         }&#xD;
+     });&#xD;
+&#xD;
+     JButton removeVehicleButton = new JButton(&quot;Fahrzeug entfernen&quot;);&#xD;
+     inputPanel.add(removeVehicleButton);&#xD;
+     removeVehicleButton.addActionListener(new ActionListener() {&#xD;
+         public void actionPerformed(ActionEvent e) {&#xD;
+             removeVehicle();&#xD;
+         }&#xD;
+     });&#xD;
+&#xD;
+     outputArea = new JTextArea();&#xD;
+     JScrollPane scrollPane = new JScrollPane(outputArea);&#xD;
+     contentPane.add(scrollPane, BorderLayout.CENTER);&#xD;
+&#xD;
+     frame.setVisible(true);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6-JpYPJ2Ee23mfmULa5lzg" name="parkCar" specification="_66zacPJ2Ee23mfmULa5lzg">
+        <language>java</language>
+        <body>String licensePlate = licensePlateField.getText();&#xD;
+     Car car = new Car(licensePlate);&#xD;
+     boolean success = garage.parkVehicle(car);&#xD;
+     if (success) {&#xD;
+         outputArea.append(&quot;Auto (&quot; + licensePlate + &quot;) erfolgreich geparkt.\n&quot;);&#xD;
+     } else {&#xD;
+         outputArea.append(&quot;Auto (&quot; + licensePlate + &quot;) konnte nicht geparkt werden. Kein freier Parkplatz.\n&quot;);&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6-QXEPJ2Ee23mfmULa5lzg" name="parkMotorcycle" specification="_660okPJ2Ee23mfmULa5lzg">
+        <language>java</language>
+        <body>String licensePlate = licensePlateField.getText();&#xD;
+     Motorcycle motorcycle = new Motorcycle(licensePlate);&#xD;
+     boolean success = garage.parkVehicle(motorcycle);&#xD;
+     if (success) {&#xD;
+         outputArea.append(&quot;Motorrad (&quot; + licensePlate + &quot;) erfolgreich geparkt.\n&quot;);&#xD;
+     } else {&#xD;
+         outputArea.append(&quot;Motorrad (&quot; + licensePlate + &quot;) konnte nicht geparkt werden. Kein freier Parkplatz.\n&quot;);&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6-Q-IPJ2Ee23mfmULa5lzg" name="removeVehicle" specification="_661PoPJ2Ee23mfmULa5lzg">
+        <language>java</language>
+        <body>String licensePlate = licensePlateField.getText();&#xD;
+     boolean success = garage.removeVehicle(licensePlate);&#xD;
+     if (success) {&#xD;
+         outputArea.append(&quot;Fahrzeug (&quot; + licensePlate + &quot;) erfolgreich entfernt.\n&quot;);&#xD;
+     } else {&#xD;
+         outputArea.append(&quot;Fahrzeug (&quot; + licensePlate + &quot;) konnte nicht gefunden und entfernt werden.\n&quot;);&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6-SMQPJ2Ee23mfmULa5lzg" name="main" specification="_662dwPJ2Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_6-SMQfJ2Ee23mfmULa5lzg" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6-SMQvJ2Ee23mfmULa5lzg" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>SwingUtilities.invokeLater(new Runnable() {&#xD;
+         public void run() {&#xD;
+             new GarageGUI();&#xD;
+         }&#xD;
+     });&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_66mmIPJ2Ee23mfmULa5lzg" name="GarageGUI" method="_6-AfcPJ2Ee23mfmULa5lzg">
+        <eAnnotations xmi:id="_66xlQPJ2Ee23mfmULa5lzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_66yMUPJ2Ee23mfmULa5lzg" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_66yMUfJ2Ee23mfmULa5lzg" type="_66XVkPJ2Ee23mfmULa5lzg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_66yzYPJ2Ee23mfmULa5lzg" name="initComponents" visibility="private" method="_6-H0MPJ2Ee23mfmULa5lzg"/>
+      <ownedOperation xmi:id="_66zacPJ2Ee23mfmULa5lzg" name="parkCar" visibility="private" method="_6-JpYPJ2Ee23mfmULa5lzg"/>
+      <ownedOperation xmi:id="_660okPJ2Ee23mfmULa5lzg" name="parkMotorcycle" visibility="private" method="_6-QXEPJ2Ee23mfmULa5lzg"/>
+      <ownedOperation xmi:id="_661PoPJ2Ee23mfmULa5lzg" name="removeVehicle" visibility="private" method="_6-Q-IPJ2Ee23mfmULa5lzg"/>
+      <ownedOperation xmi:id="_662dwPJ2Ee23mfmULa5lzg" name="main" isStatic="true" method="_6-SMQPJ2Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_662dwfJ2Ee23mfmULa5lzg" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_663E0PJ2Ee23mfmULa5lzg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_69gwMPJ2Ee23mfmULa5lzg" name="Garage" visibility="package">
+      <ownedAttribute xmi:id="_MHkocPJ3Ee23mfmULa5lzg" name="parkingLot" visibility="private" type="_MHjaUPJ3Ee23mfmULa5lzg" association="_MHoS0PJ3Ee23mfmULa5lzg"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MHl2kPJ3Ee23mfmULa5lzg" name="Garage" specification="_MG3d0PJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_MHl2kfJ3Ee23mfmULa5lzg" name="floors">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_MHl2kvJ3Ee23mfmULa5lzg" name="spacesPerFloor">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_MHl2k_J3Ee23mfmULa5lzg" type="_69gwMPJ2Ee23mfmULa5lzg" direction="return"/>
+        <language>java</language>
+        <body>this.parkingLot = new ParkingLot(floors, spacesPerFloor);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MHl2lPJ3Ee23mfmULa5lzg" name="parkVehicle" specification="_MHhlIPJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_MHl2lfJ3Ee23mfmULa5lzg" name="vehicle" type="_Lu4boPJ3Ee23mfmULa5lzg"/>
+        <ownedParameter xmi:id="_MHl2lvJ3Ee23mfmULa5lzg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int[] emptySpace = parkingLot.findEmptySpace();&#xD;
+     if (emptySpace != null) {&#xD;
+        &#xD;
+         parkingLot.getParkingSpace(emptySpace[0], emptySpace[1]).parkVehicle(vehicle);&#xD;
+         return true;&#xD;
+     } else {&#xD;
+         return false;&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MHnEsPJ3Ee23mfmULa5lzg" name="removeVehicle" specification="_MG4r8PJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_MHnEsfJ3Ee23mfmULa5lzg" name="licensePlate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_MHnEsvJ3Ee23mfmULa5lzg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int[] vehiclePosition = parkingLot.findVehicle(licensePlate);&#xD;
+     if (vehiclePosition != null) {&#xD;
+         parkingLot.getParkingSpace(vehiclePosition[0], vehiclePosition[1]).removeVehicle();&#xD;
+         return true;&#xD;
+     } else {&#xD;
+         return false;&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MHnEs_J3Ee23mfmULa5lzg" name="getVehiclePosition" specification="_MG56EPJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_MHnEtPJ3Ee23mfmULa5lzg" name="licensePlate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_MHnEtfJ3Ee23mfmULa5lzg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MHnEtvJ3Ee23mfmULa5lzg" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return parkingLot.findVehicle(licensePlate);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MHnrwPJ3Ee23mfmULa5lzg" name="getNumberOfFreeSpaces" specification="_MG7vQPJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_MHnrwfJ3Ee23mfmULa5lzg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return parkingLot.getNumberOfFreeSpaces();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_MG3d0PJ3Ee23mfmULa5lzg" name="Garage" method="_MHl2kPJ3Ee23mfmULa5lzg">
+        <eAnnotations xmi:id="_MG4E4PJ3Ee23mfmULa5lzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_MG4E4fJ3Ee23mfmULa5lzg" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_MG3d0fJ3Ee23mfmULa5lzg" name="floors">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_MG3d0vJ3Ee23mfmULa5lzg" name="spacesPerFloor">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_MG4E4vJ3Ee23mfmULa5lzg" type="_69gwMPJ2Ee23mfmULa5lzg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_MG4r8PJ3Ee23mfmULa5lzg" name="removeVehicle" method="_MHnEsPJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_MG5TAPJ3Ee23mfmULa5lzg" name="licensePlate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_MG5TAfJ3Ee23mfmULa5lzg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_MG56EPJ3Ee23mfmULa5lzg" name="getVehiclePosition" method="_MHnEs_J3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_MG56EfJ3Ee23mfmULa5lzg" name="licensePlate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_MG56EvJ3Ee23mfmULa5lzg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MG56E_J3Ee23mfmULa5lzg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_MG7vQPJ3Ee23mfmULa5lzg" name="getNumberOfFreeSpaces" method="_MHnrwPJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_MG8WUPJ3Ee23mfmULa5lzg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_MHhlIPJ3Ee23mfmULa5lzg" name="parkVehicle" method="_MHl2lPJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_MHiMMPJ3Ee23mfmULa5lzg" name="vehicle" type="_Lu4boPJ3Ee23mfmULa5lzg"/>
+        <ownedParameter xmi:id="_MHiMMfJ3Ee23mfmULa5lzg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_6-ZhAPJ2Ee23mfmULa5lzg" name="" memberEnd="_6-ZhAfJ2Ee23mfmULa5lzg _69jzgPJ2Ee23mfmULa5lzg">
+      <ownedEnd xmi:id="_6-ZhAfJ2Ee23mfmULa5lzg" name="" type="_66XVkPJ2Ee23mfmULa5lzg" association="_6-ZhAPJ2Ee23mfmULa5lzg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_6-dycfJ2Ee23mfmULa5lzg" name="" memberEnd="_6-dycvJ2Ee23mfmULa5lzg _69lBofJ2Ee23mfmULa5lzg">
+      <ownedEnd xmi:id="_6-dycvJ2Ee23mfmULa5lzg" name="" type="_66XVkPJ2Ee23mfmULa5lzg" association="_6-dycfJ2Ee23mfmULa5lzg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_6-fnofJ2Ee23mfmULa5lzg" name="" memberEnd="_6-fnovJ2Ee23mfmULa5lzg _69mPwPJ2Ee23mfmULa5lzg">
+      <ownedEnd xmi:id="_6-fnovJ2Ee23mfmULa5lzg" name="" type="_66XVkPJ2Ee23mfmULa5lzg" association="_6-fnofJ2Ee23mfmULa5lzg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_6-hc0fJ2Ee23mfmULa5lzg" name="" memberEnd="_6-hc0vJ2Ee23mfmULa5lzg _69rIQPJ2Ee23mfmULa5lzg">
+      <ownedEnd xmi:id="_6-hc0vJ2Ee23mfmULa5lzg" name="" type="_66XVkPJ2Ee23mfmULa5lzg" association="_6-hc0fJ2Ee23mfmULa5lzg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_IBs_QPJ3Ee23mfmULa5lzg" name="GarageManager" visibility="package">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_IBxQsPJ3Ee23mfmULa5lzg" name="main" specification="_IBu0cPJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_IBxQsfJ3Ee23mfmULa5lzg" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IBxQsvJ3Ee23mfmULa5lzg" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Garage garage = new Garage(3, 5); // 3 Etagen, 5 Parkplätze pro Etage&#xD;
+&#xD;
+     // Fahrzeuge erstellen&#xD;
+     Car car1 = new Car(&quot;ABC123&quot;);&#xD;
+     Motorcycle motorcycle1 = new Motorcycle(&quot;XYZ789&quot;);&#xD;
+&#xD;
+     // Fahrzeuge parken&#xD;
+     System.out.println(garage.parkVehicle(car1)); // Sollte true ausgeben, da Platz vorhanden ist&#xD;
+     System.out.println(garage.parkVehicle(motorcycle1)); // Sollte true ausgeben, da Platz vorhanden ist&#xD;
+&#xD;
+     // Position eines Fahrzeugs abfragen&#xD;
+     int[] car1Position = garage.getVehiclePosition(car1.getLicensePlate());&#xD;
+     System.out.println(&quot;Car1 ist auf Etage &quot; + car1Position[0] + &quot; und Parkplatz &quot; + car1Position[1]);&#xD;
+&#xD;
+     // Anzahl der freien Parkplätze abfragen&#xD;
+     System.out.println(&quot;Anzahl der freien Parkplätze: &quot; + garage.getNumberOfFreeSpaces());&#xD;
+&#xD;
+     // Fahrzeug entfernen&#xD;
+     System.out.println(garage.removeVehicle(car1.getLicensePlate())); // Sollte true ausgeben, da das Fahrzeug vorhanden ist&#xD;
+&#xD;
+     // Anzahl der freien Parkplätze erneut abfragen&#xD;
+     System.out.println(&quot;Anzahl der freien Parkplätze: &quot; + garage.getNumberOfFreeSpaces());&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_IBu0cPJ3Ee23mfmULa5lzg" name="main" isStatic="true" method="_IBxQsPJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_IBu0cfJ3Ee23mfmULa5lzg" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IBvbgPJ3Ee23mfmULa5lzg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LB0hUPJ3Ee23mfmULa5lzg" name="Application">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LB4ywPJ3Ee23mfmULa5lzg" name="main" specification="_LB1vcPJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_LB4ywfJ3Ee23mfmULa5lzg" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LB4ywvJ3Ee23mfmULa5lzg" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>GarageDriver driver = new GarageDriver();&#xD;
+     driver.run();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_LB1vcPJ3Ee23mfmULa5lzg" name="main" isStatic="true" method="_LB4ywPJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_LB2WgPJ3Ee23mfmULa5lzg" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LB29kPJ3Ee23mfmULa5lzg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LupLEPJ3Ee23mfmULa5lzg" name="Car" visibility="package">
+      <generalization xmi:id="_Lu5pwfJ3Ee23mfmULa5lzg" general="_Lu4boPJ3Ee23mfmULa5lzg"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Lu6Q0PJ3Ee23mfmULa5lzg" name="Car" specification="_LuxG4PJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_Lu6Q0fJ3Ee23mfmULa5lzg" name="licensePlate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Lu6Q0vJ3Ee23mfmULa5lzg" type="_LupLEPJ3Ee23mfmULa5lzg" direction="return"/>
+        <language>java</language>
+        <body>super(licensePlate);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_LuxG4PJ3Ee23mfmULa5lzg" name="Car" method="_Lu6Q0PJ3Ee23mfmULa5lzg">
+        <eAnnotations xmi:id="_Luxt8PJ3Ee23mfmULa5lzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_Luxt8fJ3Ee23mfmULa5lzg" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_LuxG4fJ3Ee23mfmULa5lzg" name="licensePlate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Luxt8vJ3Ee23mfmULa5lzg" type="_LupLEPJ3Ee23mfmULa5lzg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Lu4boPJ3Ee23mfmULa5lzg" name="Vehicle" isAbstract="true">
+      <ownedAttribute xmi:id="_QVbwAPJ3Ee23mfmULa5lzg" name="licensePlate" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_QVc-IPJ3Ee23mfmULa5lzg" name="Vehicle" specification="_QVZTwPJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_QVc-IfJ3Ee23mfmULa5lzg" name="licensePlate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_QVc-IvJ3Ee23mfmULa5lzg" type="_Lu4boPJ3Ee23mfmULa5lzg" direction="return"/>
+        <language>java</language>
+        <body>this.licensePlate = licensePlate;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_QVZTwPJ3Ee23mfmULa5lzg" name="Vehicle" method="_QVc-IPJ3Ee23mfmULa5lzg">
+        <eAnnotations xmi:id="_QVZ60PJ3Ee23mfmULa5lzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_QVZ60fJ3Ee23mfmULa5lzg" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_QVZTwfJ3Ee23mfmULa5lzg" name="licensePlate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_QVZ60vJ3Ee23mfmULa5lzg" type="_Lu4boPJ3Ee23mfmULa5lzg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_MHjaUPJ3Ee23mfmULa5lzg" name="ParkingLot" visibility="package">
+      <ownedAttribute xmi:id="_OiekoPJ3Ee23mfmULa5lzg" name="floors" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_OifLsPJ3Ee23mfmULa5lzg" name="spacesPerFloor" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_OifLsfJ3Ee23mfmULa5lzg" name="parkingSpaces" visibility="private" type="_OicIYPJ3Ee23mfmULa5lzg" association="_Oii2EPJ3Ee23mfmULa5lzg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OifLsvJ3Ee23mfmULa5lzg" value="*"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OihA4PJ3Ee23mfmULa5lzg" name="ParkingLot" specification="_OiImYPJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_OihA4fJ3Ee23mfmULa5lzg" name="floors">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_OihA4vJ3Ee23mfmULa5lzg" name="spacesPerFloor">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_OihA4_J3Ee23mfmULa5lzg" type="_MHjaUPJ3Ee23mfmULa5lzg" direction="return"/>
+        <language>java</language>
+        <body>this.floors = floors;&#xD;
+     this.spacesPerFloor = spacesPerFloor;&#xD;
+     this.parkingSpaces = new ParkingSpace[floors][spacesPerFloor];&#xD;
+&#xD;
+     for (int i = 0; i &lt; floors; i++) {&#xD;
+         for (int j = 0; j &lt; spacesPerFloor; j++) {&#xD;
+             parkingSpaces[i][j] = new ParkingSpace();&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OihA5PJ3Ee23mfmULa5lzg" name="getParkingSpace" specification="_OiKbkPJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_OihA5fJ3Ee23mfmULa5lzg" name="floor">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_OihA5vJ3Ee23mfmULa5lzg" name="space">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_OihA5_J3Ee23mfmULa5lzg" type="_OicIYPJ3Ee23mfmULa5lzg" direction="return"/>
+        <language>java</language>
+        <body>return parkingSpaces[floor][space];&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_OihA6PJ3Ee23mfmULa5lzg" name="findEmptySpace" specification="_OiLpsPJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_Oihn8PJ3Ee23mfmULa5lzg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Oihn8fJ3Ee23mfmULa5lzg" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>for (int i = 0; i &lt; floors; i++) {&#xD;
+         for (int j = 0; j &lt; spacesPerFloor; j++) {&#xD;
+             if (!parkingSpaces[i][j].isOccupied()) {&#xD;
+                 return new int[]{i, j};&#xD;
+             }&#xD;
+         }&#xD;
+     }&#xD;
+     return null;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Oihn8vJ3Ee23mfmULa5lzg" name="getNumberOfFreeSpaces" specification="_OiMQwfJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_Oihn8_J3Ee23mfmULa5lzg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int count = 0;&#xD;
+     for (int i = 0; i &lt; floors; i++) {&#xD;
+         for (int j = 0; j &lt; spacesPerFloor; j++) {&#xD;
+             if (!parkingSpaces[i][j].isOccupied()) {&#xD;
+                 count++;&#xD;
+             }&#xD;
+         }&#xD;
+     }&#xD;
+     return count;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Oihn9PJ3Ee23mfmULa5lzg" name="findVehicle" specification="_OiM30fJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_Oihn9fJ3Ee23mfmULa5lzg" name="licensePlate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Oihn9vJ3Ee23mfmULa5lzg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Oihn9_J3Ee23mfmULa5lzg" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>for (int i = 0; i &lt; floors; i++) {&#xD;
+         for (int j = 0; j &lt; spacesPerFloor; j++) {&#xD;
+             if (parkingSpaces[i][j].isOccupied() &amp;&amp; parkingSpaces[i][j].getVehicle().getLicensePlate().equals(licensePlate)) {&#xD;
+                 return new int[]{i, j};&#xD;
+             }&#xD;
+         }&#xD;
+     }&#xD;
+     return null;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_OiImYPJ3Ee23mfmULa5lzg" name="ParkingLot" method="_OihA4PJ3Ee23mfmULa5lzg">
+        <eAnnotations xmi:id="_OiJNcPJ3Ee23mfmULa5lzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_OiJNcfJ3Ee23mfmULa5lzg" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_OiImYfJ3Ee23mfmULa5lzg" name="floors">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_OiImYvJ3Ee23mfmULa5lzg" name="spacesPerFloor">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_OiJNcvJ3Ee23mfmULa5lzg" type="_MHjaUPJ3Ee23mfmULa5lzg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_OiKbkPJ3Ee23mfmULa5lzg" name="getParkingSpace" method="_OihA5PJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_OiKbkfJ3Ee23mfmULa5lzg" name="floor">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_OiKbkvJ3Ee23mfmULa5lzg" name="space">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_OidWgPJ3Ee23mfmULa5lzg" type="_OicIYPJ3Ee23mfmULa5lzg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_OiLpsPJ3Ee23mfmULa5lzg" name="findEmptySpace" method="_OihA6PJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_OiLpsfJ3Ee23mfmULa5lzg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OiLpsvJ3Ee23mfmULa5lzg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_OiMQwfJ3Ee23mfmULa5lzg" name="getNumberOfFreeSpaces" method="_Oihn8vJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_OiM30PJ3Ee23mfmULa5lzg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_OiM30fJ3Ee23mfmULa5lzg" name="findVehicle" method="_Oihn9PJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_OiM30vJ3Ee23mfmULa5lzg" name="licensePlate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_OiNe4PJ3Ee23mfmULa5lzg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OiNe4fJ3Ee23mfmULa5lzg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_MHoS0PJ3Ee23mfmULa5lzg" name="" memberEnd="_MHoS0fJ3Ee23mfmULa5lzg _MHkocPJ3Ee23mfmULa5lzg">
+      <ownedEnd xmi:id="_MHoS0fJ3Ee23mfmULa5lzg" name="" type="_69gwMPJ2Ee23mfmULa5lzg" association="_MHoS0PJ3Ee23mfmULa5lzg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Ml1RwPJ3Ee23mfmULa5lzg" name="GarageDriver">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ml4VEPJ3Ee23mfmULa5lzg" name="run" specification="_Ml2f4PJ3Ee23mfmULa5lzg">
+        <language>java</language>
+        <body>Garage garage = new Garage(3, 5); // 3 Etagen, 5 Parkplätze pro Etage&#xD;
+&#xD;
+	        // Fahrzeuge erstellen&#xD;
+	        Car car1 = new Car(&quot;ABC123&quot;);&#xD;
+	        Motorcycle motorcycle1 = new Motorcycle(&quot;XYZ789&quot;);&#xD;
+&#xD;
+	        // Fahrzeuge parken&#xD;
+	        System.out.println(garage.parkVehicle(car1)); // Sollte true ausgeben, da Platz vorhanden ist&#xD;
+	        System.out.println(garage.parkVehicle(motorcycle1)); // Sollte true ausgeben, da Platz vorhanden ist&#xD;
+&#xD;
+	        // Position eines Fahrzeugs abfragen&#xD;
+	        int[] car1Position = garage.getVehiclePosition(car1.getLicensePlate());&#xD;
+	        System.out.println(&quot;Car1 ist auf Etage &quot; + car1Position[0] + &quot; und Parkplatz &quot; + car1Position[1]);&#xD;
+&#xD;
+	        // Anzahl der freien Parkplätze abfragen&#xD;
+	        System.out.println(&quot;Anzahl der freien Parkplätze: &quot; + garage.getNumberOfFreeSpaces());&#xD;
+&#xD;
+	        // Fahrzeug entfernen&#xD;
+	        System.out.println(garage.removeVehicle(car1.getLicensePlate())); // Sollte true ausgeben, da das Fahrzeug vorhanden ist&#xD;
+&#xD;
+	        // Anzahl der freien Parkplätze erneut abfragen&#xD;
+	        System.out.println(&quot;Anzahl der freien Parkplätze: &quot; + garage.getNumberOfFreeSpaces());&#xD;
+	    </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_Ml2f4PJ3Ee23mfmULa5lzg" name="run" method="_Ml4VEPJ3Ee23mfmULa5lzg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Ndq4sPJ3Ee23mfmULa5lzg" name="Motorcycle" visibility="package">
+      <generalization xmi:id="_NdxmYPJ3Ee23mfmULa5lzg" general="_Lu4boPJ3Ee23mfmULa5lzg"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_NdyNcPJ3Ee23mfmULa5lzg" name="Motorcycle" specification="_NdsG0PJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_NdyNcfJ3Ee23mfmULa5lzg" name="licensePlate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_NdyNcvJ3Ee23mfmULa5lzg" type="_Ndq4sPJ3Ee23mfmULa5lzg" direction="return"/>
+        <language>java</language>
+        <body>super(licensePlate);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_NdsG0PJ3Ee23mfmULa5lzg" name="Motorcycle" method="_NdyNcPJ3Ee23mfmULa5lzg">
+        <eAnnotations xmi:id="_NdsG0vJ3Ee23mfmULa5lzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_NdsG0_J3Ee23mfmULa5lzg" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_NdsG0fJ3Ee23mfmULa5lzg" name="licensePlate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Ndst4PJ3Ee23mfmULa5lzg" type="_Ndq4sPJ3Ee23mfmULa5lzg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OicIYPJ3Ee23mfmULa5lzg" name="ParkingSpace" visibility="package">
+      <ownedAttribute xmi:id="_PntuYPJ3Ee23mfmULa5lzg" name="vehicle" type="_Lu4boPJ3Ee23mfmULa5lzg" isReadOnly="true" association="_PnwxsPJ3Ee23mfmULa5lzg"/>
+      <ownedAttribute xmi:id="_PntuYfJ3Ee23mfmULa5lzg" name="isOccupied" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Pnu8gPJ3Ee23mfmULa5lzg" name="ParkingSpace" specification="_PnaMYPJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_Pnu8gfJ3Ee23mfmULa5lzg" type="_OicIYPJ3Ee23mfmULa5lzg" direction="return"/>
+        <language>java</language>
+        <body>this.isOccupied = false;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Pnu8gvJ3Ee23mfmULa5lzg" name="isOccupied" specification="_PnbagPJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_Pnu8g_J3Ee23mfmULa5lzg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return isOccupied;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Pnu8hPJ3Ee23mfmULa5lzg" name="parkVehicle" specification="_PnsgQPJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_Pnu8hfJ3Ee23mfmULa5lzg" name="vehicle" type="_Lu4boPJ3Ee23mfmULa5lzg"/>
+        <language>java</language>
+        <body>this.vehicle = vehicle;&#xD;
+     this.isOccupied = true;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Pnu8hvJ3Ee23mfmULa5lzg" name="removeVehicle" specification="_Pnd2wPJ3Ee23mfmULa5lzg">
+        <language>java</language>
+        <body>this.vehicle = null;&#xD;
+     this.isOccupied = false;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_PnaMYPJ3Ee23mfmULa5lzg" name="ParkingSpace" method="_Pnu8gPJ3Ee23mfmULa5lzg">
+        <eAnnotations xmi:id="_PnaMYfJ3Ee23mfmULa5lzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_PnazcPJ3Ee23mfmULa5lzg" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_PnazcfJ3Ee23mfmULa5lzg" type="_OicIYPJ3Ee23mfmULa5lzg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_PnbagPJ3Ee23mfmULa5lzg" name="isOccupied" method="_Pnu8gvJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_PncBkPJ3Ee23mfmULa5lzg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Pnd2wPJ3Ee23mfmULa5lzg" name="removeVehicle" method="_Pnu8hvJ3Ee23mfmULa5lzg"/>
+      <ownedOperation xmi:id="_PnsgQPJ3Ee23mfmULa5lzg" name="parkVehicle" method="_Pnu8hPJ3Ee23mfmULa5lzg">
+        <ownedParameter xmi:id="_PnsgQfJ3Ee23mfmULa5lzg" name="vehicle" type="_Lu4boPJ3Ee23mfmULa5lzg"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Oii2EPJ3Ee23mfmULa5lzg" name="" memberEnd="_Oii2EfJ3Ee23mfmULa5lzg _OifLsfJ3Ee23mfmULa5lzg">
+      <ownedEnd xmi:id="_Oii2EfJ3Ee23mfmULa5lzg" name="" type="_MHjaUPJ3Ee23mfmULa5lzg" association="_Oii2EPJ3Ee23mfmULa5lzg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_PnwxsPJ3Ee23mfmULa5lzg" name="" memberEnd="_PnwxsfJ3Ee23mfmULa5lzg _PntuYPJ3Ee23mfmULa5lzg">
+      <ownedEnd xmi:id="_PnwxsfJ3Ee23mfmULa5lzg" name="" type="_OicIYPJ3Ee23mfmULa5lzg" association="_PnwxsPJ3Ee23mfmULa5lzg"/>
+    </packagedElement>
+    <profileApplication xmi:id="_66X8oPJ2Ee23mfmULa5lzg">
+      <eAnnotations xmi:id="_66YjsPJ2Ee23mfmULa5lzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:Reference xmi:id="_69I8wPJ2Ee23mfmULa5lzg" base_Element="_69F5cPJ2Ee23mfmULa5lzg"/>
+  <UMLLabProfile:Reference xmi:id="_69N1QPJ2Ee23mfmULa5lzg" base_Element="_69Kx8PJ2Ee23mfmULa5lzg"/>
+  <UMLLabProfile:Reference xmi:id="_69b3sPJ2Ee23mfmULa5lzg" base_Element="_69aCgPJ2Ee23mfmULa5lzg"/>
+  <UMLLabProfile:Reference xmi:id="_69ds4PJ2Ee23mfmULa5lzg" base_Element="_69cewPJ2Ee23mfmULa5lzg"/>
+  <UMLLabProfile:Reference xmi:id="_69fiEPJ2Ee23mfmULa5lzg" base_Element="_69eT8PJ2Ee23mfmULa5lzg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_69lBoPJ2Ee23mfmULa5lzg" base_Element="_69jzgPJ2Ee23mfmULa5lzg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_69losPJ2Ee23mfmULa5lzg" base_Element="_69lBofJ2Ee23mfmULa5lzg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_69pTEPJ2Ee23mfmULa5lzg" base_Element="_69mPwPJ2Ee23mfmULa5lzg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_69sWYPJ2Ee23mfmULa5lzg" base_Element="_69rIQPJ2Ee23mfmULa5lzg"/>
+  <UMLLabProfile:Reference xmi:id="_6-dycPJ2Ee23mfmULa5lzg" base_Element="_6-ZhAPJ2Ee23mfmULa5lzg"/>
+  <UMLLabProfile:Reference xmi:id="_6-fnoPJ2Ee23mfmULa5lzg" base_Element="_6-dycfJ2Ee23mfmULa5lzg"/>
+  <UMLLabProfile:Reference xmi:id="_6-hc0PJ2Ee23mfmULa5lzg" base_Element="_6-fnofJ2Ee23mfmULa5lzg"/>
+  <UMLLabProfile:Reference xmi:id="_6-iq8PJ2Ee23mfmULa5lzg" base_Element="_6-hc0fJ2Ee23mfmULa5lzg"/>
+  <UMLLabProfile:Array xmi:id="_MG7IMPJ3Ee23mfmULa5lzg" base_Element="_MG56EPJ3Ee23mfmULa5lzg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MHlPgPJ3Ee23mfmULa5lzg" base_Element="_MHkocPJ3Ee23mfmULa5lzg"/>
+  <UMLLabProfile:Reference xmi:id="_MHpg8PJ3Ee23mfmULa5lzg" base_Element="_MHoS0PJ3Ee23mfmULa5lzg"/>
+  <UMLLabProfile:Array xmi:id="_OiMQwPJ3Ee23mfmULa5lzg" base_Element="_OiLpsPJ3Ee23mfmULa5lzg"/>
+  <UMLLabProfile:Array xmi:id="_OiNe4vJ3Ee23mfmULa5lzg" base_Element="_OiM30fJ3Ee23mfmULa5lzg"/>
+  <UMLLabProfile:Array xmi:id="_OifywPJ3Ee23mfmULa5lzg" dimensions="2" base_Element="_OifLsfJ3Ee23mfmULa5lzg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_OigZ0PJ3Ee23mfmULa5lzg" base_Element="_OifLsfJ3Ee23mfmULa5lzg"/>
+  <UMLLabProfile:Reference xmi:id="_OikEMPJ3Ee23mfmULa5lzg" base_Element="_Oii2EPJ3Ee23mfmULa5lzg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_PnuVcPJ3Ee23mfmULa5lzg" base_Element="_PntuYfJ3Ee23mfmULa5lzg"/>
+  <UMLLabProfile:Reference xmi:id="_Pnx_0PJ3Ee23mfmULa5lzg" base_Element="_PnwxsPJ3Ee23mfmULa5lzg"/>
+</xmi:XMI>

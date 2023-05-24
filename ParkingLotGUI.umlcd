@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_2Rno0PJ2Ee23mfmULa5lzg">
+  <modelElement href="ParkingLotGUI.uml#_2LekkPJ2Ee23mfmULa5lzg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_7jWoMPJ2Ee23mfmULa5lzg" source="_7jbgufJ2Ee23mfmULa5lzg">
+    <modelElement href="ParkingLotGUI.uml#_6-ZhAPJ2Ee23mfmULa5lzg"/>
+    <stereotypes xmi:id="_7jXPQPJ2Ee23mfmULa5lzg" name="Reference">
+      <modelElement href="ParkingLotGUI.uml#_6-dycPJ2Ee23mfmULa5lzg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_7jXPQfJ2Ee23mfmULa5lzg" text=""/>
+    <sourceRole xmi:id="_7jXPQvJ2Ee23mfmULa5lzg" aggregationKind="NONE" name="">
+      <modelElement href="ParkingLotGUI.uml#_6-ZhAfJ2Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_7jXPQ_J2Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_7jXPRPJ2Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_7jXPRfJ2Ee23mfmULa5lzg" aggregationKind="NONE" name="frame" navigable="true">
+      <modelElement href="ParkingLotGUI.uml#_69jzgPJ2Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_7jXPRvJ2Ee23mfmULa5lzg" label="-"/>
+      <cardinality xmi:id="_7jXPR_J2Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_7jYdYPJ2Ee23mfmULa5lzg" source="_7jbgufJ2Ee23mfmULa5lzg">
+    <modelElement href="ParkingLotGUI.uml#_6-dycfJ2Ee23mfmULa5lzg"/>
+    <stereotypes xmi:id="_7jZEcPJ2Ee23mfmULa5lzg" name="Reference">
+      <modelElement href="ParkingLotGUI.uml#_6-fnoPJ2Ee23mfmULa5lzg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_7jZEcfJ2Ee23mfmULa5lzg" text=""/>
+    <sourceRole xmi:id="_7jZEcvJ2Ee23mfmULa5lzg" aggregationKind="NONE" name="">
+      <modelElement href="ParkingLotGUI.uml#_6-dycvJ2Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_7jZEc_J2Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_7jZEdPJ2Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_7jZEdfJ2Ee23mfmULa5lzg" aggregationKind="NONE" name="licensePlateField" navigable="true">
+      <modelElement href="ParkingLotGUI.uml#_69lBofJ2Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_7jZEdvJ2Ee23mfmULa5lzg" label="-"/>
+      <cardinality xmi:id="_7jZEd_J2Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_7jaSkPJ2Ee23mfmULa5lzg" source="_7jbgufJ2Ee23mfmULa5lzg">
+    <modelElement href="ParkingLotGUI.uml#_6-fnofJ2Ee23mfmULa5lzg"/>
+    <stereotypes xmi:id="_7jaSkfJ2Ee23mfmULa5lzg" name="Reference">
+      <modelElement href="ParkingLotGUI.uml#_6-hc0PJ2Ee23mfmULa5lzg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_7jaSkvJ2Ee23mfmULa5lzg" text=""/>
+    <sourceRole xmi:id="_7jaSk_J2Ee23mfmULa5lzg" aggregationKind="NONE" name="">
+      <modelElement href="ParkingLotGUI.uml#_6-fnovJ2Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_7jaSlPJ2Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_7jaSlfJ2Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_7jaSlvJ2Ee23mfmULa5lzg" aggregationKind="NONE" name="outputArea" navigable="true">
+      <modelElement href="ParkingLotGUI.uml#_69mPwPJ2Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_7jaSl_J2Ee23mfmULa5lzg" label="-"/>
+      <cardinality xmi:id="_7jaSmPJ2Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_7jbgsPJ2Ee23mfmULa5lzg" sourceAnchor="203.0,66.0" targetAnchor="0.0,65.0" target="_MI-9sPJ3Ee23mfmULa5lzg" source="_7jbgufJ2Ee23mfmULa5lzg">
+    <modelElement href="ParkingLotGUI.uml#_6-hc0fJ2Ee23mfmULa5lzg"/>
+    <stereotypes xmi:id="_7jbgsfJ2Ee23mfmULa5lzg" name="Reference">
+      <modelElement href="ParkingLotGUI.uml#_6-iq8PJ2Ee23mfmULa5lzg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_7jbgsvJ2Ee23mfmULa5lzg" text="">
+      <visualProperties xmi:id="_MTCRkPJ3Ee23mfmULa5lzg" position="-18.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_7jbgs_J2Ee23mfmULa5lzg" aggregationKind="NONE" name="">
+      <modelElement href="ParkingLotGUI.uml#_6-hc0vJ2Ee23mfmULa5lzg"/>
+      <visualProperties xmi:id="_MTBDcPJ3Ee23mfmULa5lzg" position="14.0,-47.0"/>
+      <visibility xmi:id="_7jbgtPJ2Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_7jbgtfJ2Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_7jbgtvJ2Ee23mfmULa5lzg" aggregationKind="NONE" name="garage" navigable="true">
+      <modelElement href="ParkingLotGUI.uml#_69rIQPJ2Ee23mfmULa5lzg"/>
+      <visualProperties xmi:id="_MTDfsPJ3Ee23mfmULa5lzg" position="-83.0,-47.0"/>
+      <visibility xmi:id="_7jbgt_J2Ee23mfmULa5lzg" label="-"/>
+      <cardinality xmi:id="_7jbguPJ2Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MI-WoPJ3Ee23mfmULa5lzg" sourceAnchor="64.0,130.0" targetAnchor="363.0,51.0" target="_OkdhqfJ3Ee23mfmULa5lzg" source="_MI-9sPJ3Ee23mfmULa5lzg">
+    <modelElement href="ParkingLotGUI.uml#_MHoS0PJ3Ee23mfmULa5lzg"/>
+    <bendpoints xmi:id="_d5QhYPJ3Ee23mfmULa5lzg" sourceY="155" targetX="117"/>
+    <stereotypes xmi:id="_MI-WofJ3Ee23mfmULa5lzg" name="Reference">
+      <modelElement href="ParkingLotGUI.uml#_MHpg8PJ3Ee23mfmULa5lzg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MI-WovJ3Ee23mfmULa5lzg" text="">
+      <visualProperties xmi:id="_OoYYUPJ3Ee23mfmULa5lzg" position="-91.66666666666663,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_MI-Wo_J3Ee23mfmULa5lzg" aggregationKind="NONE" name="">
+      <modelElement href="ParkingLotGUI.uml#_MHoS0fJ3Ee23mfmULa5lzg"/>
+      <visualProperties xmi:id="_OoXKMPJ3Ee23mfmULa5lzg" position="-17.0,28.0"/>
+      <visibility xmi:id="_MI-WpPJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_MI-WpfJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MI-WpvJ3Ee23mfmULa5lzg" aggregationKind="NONE" name="parkingLot" navigable="true">
+      <modelElement href="ParkingLotGUI.uml#_MHkocPJ3Ee23mfmULa5lzg"/>
+      <visualProperties xmi:id="_OoYYUfJ3Ee23mfmULa5lzg" position="4.0,-46.0"/>
+      <visibility xmi:id="_MI-Wp_J3Ee23mfmULa5lzg" label="-"/>
+      <cardinality xmi:id="_MI-WqPJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_NfcaUPJ3Ee23mfmULa5lzg" sourceAnchor="153.0,0.0" targetAnchor="130.0,80.0" superClass="_QXFV0PJ3Ee23mfmULa5lzg" subClass="_Nfe2kPJ3Ee23mfmULa5lzg">
+    <modelElement href="ParkingLotGUI.uml#_NdxmYPJ3Ee23mfmULa5lzg"/>
+    <bendpoints xmi:id="_d5RIcvJ3Ee23mfmULa5lzg" sourceY="-30" targetX="-221" targetY="136"/>
+    <bendpoints xmi:id="_d5RIc_J3Ee23mfmULa5lzg" sourceX="221" sourceY="-30" targetY="136"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_NfdocPJ3Ee23mfmULa5lzg" sourceAnchor="111.0,0.0" targetAnchor="130.0,80.0" superClass="_QXFV0PJ3Ee23mfmULa5lzg" subClass="_Lv4hMPJ3Ee23mfmULa5lzg">
+    <modelElement href="ParkingLotGUI.uml#_Lu5pwfJ3Ee23mfmULa5lzg"/>
+    <bendpoints xmi:id="_d5RIcPJ3Ee23mfmULa5lzg" sourceY="-30" targetX="-545" targetY="136"/>
+    <bendpoints xmi:id="_d5RIcfJ3Ee23mfmULa5lzg" sourceX="545" sourceY="-30" targetY="136"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_OkdhoPJ3Ee23mfmULa5lzg" sourceAnchor="363.0,160.0" targetAnchor="0.0,52.0" target="_Ppi6YPJ3Ee23mfmULa5lzg" source="_OkdhqfJ3Ee23mfmULa5lzg">
+    <modelElement href="ParkingLotGUI.uml#_Oii2EPJ3Ee23mfmULa5lzg"/>
+    <stereotypes xmi:id="_OkdhofJ3Ee23mfmULa5lzg" name="Reference">
+      <modelElement href="ParkingLotGUI.uml#_OikEMPJ3Ee23mfmULa5lzg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_OkdhovJ3Ee23mfmULa5lzg" text="">
+      <visualProperties xmi:id="_PrxH8PJ3Ee23mfmULa5lzg" position="-18.5,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Okdho_J3Ee23mfmULa5lzg" aggregationKind="NONE" name="">
+      <modelElement href="ParkingLotGUI.uml#_Oii2EfJ3Ee23mfmULa5lzg"/>
+      <visualProperties xmi:id="_PrvSwPJ3Ee23mfmULa5lzg" position="21.806451612903174,2.0"/>
+      <visibility xmi:id="_OkdhpPJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_OkdhpfJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_OkdhpvJ3Ee23mfmULa5lzg" aggregationKind="NONE" name="parkingSpaces" navigable="true">
+      <modelElement href="ParkingLotGUI.uml#_OifLsfJ3Ee23mfmULa5lzg"/>
+      <visualProperties xmi:id="_PrxH8fJ3Ee23mfmULa5lzg" position="-163.125,2.0"/>
+      <visibility xmi:id="_Okdhp_J3Ee23mfmULa5lzg" label="-"/>
+      <cardinality xmi:id="_OkdhqPJ3Ee23mfmULa5lzg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PpfQAPJ3Ee23mfmULa5lzg" sourceAnchor="112.0,0.0" targetAnchor="212.0,80.0" target="_QXFV0PJ3Ee23mfmULa5lzg" source="_Ppi6YPJ3Ee23mfmULa5lzg">
+    <modelElement href="ParkingLotGUI.uml#_PnwxsPJ3Ee23mfmULa5lzg"/>
+    <stereotypes xmi:id="_Ppf3E_J3Ee23mfmULa5lzg" name="Reference">
+      <modelElement href="ParkingLotGUI.uml#_Pnx_0PJ3Ee23mfmULa5lzg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Ppf3EPJ3Ee23mfmULa5lzg" text="">
+      <visualProperties xmi:id="_QaSa0PJ3Ee23mfmULa5lzg" position="2.0,-8.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Ppf3EfJ3Ee23mfmULa5lzg" aggregationKind="NONE" name="">
+      <modelElement href="ParkingLotGUI.uml#_PnwxsfJ3Ee23mfmULa5lzg"/>
+      <visualProperties xmi:id="_QaRMsPJ3Ee23mfmULa5lzg" position="-17.0,-76.0"/>
+      <visibility xmi:id="_PpiTUPJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_PphsQPJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Ppf3EvJ3Ee23mfmULa5lzg" aggregationKind="NONE" name="vehicle" navigable="true">
+      <modelElement href="ParkingLotGUI.uml#_PntuYPJ3Ee23mfmULa5lzg"/>
+      <visualProperties xmi:id="_QaTB4PJ3Ee23mfmULa5lzg" position="-54.0,30.0"/>
+      <visibility xmi:id="_PpiTUvJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_PpiTUfJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_MI-9sPJ3Ee23mfmULa5lzg" name="Garage" associationsIn="_7jbgsPJ2Ee23mfmULa5lzg" associationsOut="_MI-WoPJ3Ee23mfmULa5lzg">
+    <modelElement href="ParkingLotGUI.uml#_69gwMPJ2Ee23mfmULa5lzg"/>
+    <visualProperties xmi:id="_MI-9sfJ3Ee23mfmULa5lzg" position="652.0,12.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_MI-9svJ3Ee23mfmULa5lzg" label="~"/>
+    <attributes xmi:id="_MI-9s_J3Ee23mfmULa5lzg" name="parkingLot">
+      <modelElement href="ParkingLotGUI.uml#_MHkocPJ3Ee23mfmULa5lzg"/>
+      <stereotypes xmi:id="_MI-9tPJ3Ee23mfmULa5lzg" name="LegacyStyledElement">
+        <modelElement href="ParkingLotGUI.uml#_MHlPgPJ3Ee23mfmULa5lzg"/>
+      </stereotypes>
+      <visibility xmi:id="_MI-9tfJ3Ee23mfmULa5lzg" label="-"/>
+      <cardinality xmi:id="_MI-9tvJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <type xmi:id="_MI-9t_J3Ee23mfmULa5lzg" name="ParkingLot">
+        <modelElement href="ParkingLotGUI.uml#_MHjaUPJ3Ee23mfmULa5lzg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_MI-9uPJ3Ee23mfmULa5lzg" name="Garage">
+      <modelElement href="ParkingLotGUI.uml#_MG3d0PJ3Ee23mfmULa5lzg"/>
+      <keywords xmi:id="_MI-9ufJ3Ee23mfmULa5lzg" keyword="create"/>
+      <visibility xmi:id="_MI-9uvJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_MI-9u_J3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MI-9vPJ3Ee23mfmULa5lzg">
+        <modelElement href="ParkingLotGUI.uml#_MG4E4vJ3Ee23mfmULa5lzg"/>
+        <type xmi:id="_MI-9vfJ3Ee23mfmULa5lzg" name="Garage">
+          <modelElement href="ParkingLotGUI.uml#_69gwMPJ2Ee23mfmULa5lzg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MI-9vvJ3Ee23mfmULa5lzg" name="floors">
+        <modelElement href="ParkingLotGUI.uml#_MG3d0fJ3Ee23mfmULa5lzg"/>
+        <cardinality xmi:id="_MI-9v_J3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+        <type xmi:id="_MI-9wPJ3Ee23mfmULa5lzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MI-9wfJ3Ee23mfmULa5lzg" name="spacesPerFloor">
+        <modelElement href="ParkingLotGUI.uml#_MG3d0vJ3Ee23mfmULa5lzg"/>
+        <cardinality xmi:id="_MI-9wvJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+        <type xmi:id="_MI-9w_J3Ee23mfmULa5lzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MI-9xPJ3Ee23mfmULa5lzg" name="removeVehicle">
+      <modelElement href="ParkingLotGUI.uml#_MG4r8PJ3Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_MI-9xfJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_MI-9xvJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MI-9x_J3Ee23mfmULa5lzg">
+        <modelElement href="ParkingLotGUI.uml#_MG5TAfJ3Ee23mfmULa5lzg"/>
+        <type xmi:id="_MI-9yPJ3Ee23mfmULa5lzg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MI-9yfJ3Ee23mfmULa5lzg" name="licensePlate">
+        <modelElement href="ParkingLotGUI.uml#_MG5TAPJ3Ee23mfmULa5lzg"/>
+        <cardinality xmi:id="_MI-9yvJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+        <type xmi:id="_MI-9y_J3Ee23mfmULa5lzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MI-9zPJ3Ee23mfmULa5lzg" name="getVehiclePosition">
+      <modelElement href="ParkingLotGUI.uml#_MG56EPJ3Ee23mfmULa5lzg"/>
+      <stereotypes xmi:id="_MI-9zfJ3Ee23mfmULa5lzg" name="Array">
+        <modelElement href="ParkingLotGUI.uml#_MG7IMPJ3Ee23mfmULa5lzg"/>
+      </stereotypes>
+      <visibility xmi:id="_MI-9zvJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_MI-9z_J3Ee23mfmULa5lzg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_MI-90PJ3Ee23mfmULa5lzg">
+        <modelElement href="ParkingLotGUI.uml#_MG56EvJ3Ee23mfmULa5lzg"/>
+        <type xmi:id="_MI-90fJ3Ee23mfmULa5lzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MI-90vJ3Ee23mfmULa5lzg" name="licensePlate">
+        <modelElement href="ParkingLotGUI.uml#_MG56EfJ3Ee23mfmULa5lzg"/>
+        <cardinality xmi:id="_MI-90_J3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+        <type xmi:id="_MI-91PJ3Ee23mfmULa5lzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MI-91fJ3Ee23mfmULa5lzg" name="getNumberOfFreeSpaces">
+      <modelElement href="ParkingLotGUI.uml#_MG7vQPJ3Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_MI-91vJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_MI-91_J3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MI-92PJ3Ee23mfmULa5lzg">
+        <modelElement href="ParkingLotGUI.uml#_MG8WUPJ3Ee23mfmULa5lzg"/>
+        <type xmi:id="_MI-92fJ3Ee23mfmULa5lzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MI-92vJ3Ee23mfmULa5lzg" name="parkVehicle">
+      <modelElement href="ParkingLotGUI.uml#_MHhlIPJ3Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_MI-92_J3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_MI-93PJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MI-93fJ3Ee23mfmULa5lzg">
+        <modelElement href="ParkingLotGUI.uml#_MHiMMfJ3Ee23mfmULa5lzg"/>
+        <type xmi:id="_MI-93vJ3Ee23mfmULa5lzg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MI-93_J3Ee23mfmULa5lzg" name="vehicle">
+        <modelElement href="ParkingLotGUI.uml#_MHiMMPJ3Ee23mfmULa5lzg"/>
+        <cardinality xmi:id="_MI-94PJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+        <type xmi:id="_MI-94fJ3Ee23mfmULa5lzg" name="Vehicle">
+          <modelElement href="ParkingLotGUI.uml#_Lu4boPJ3Ee23mfmULa5lzg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_QXFV0PJ3Ee23mfmULa5lzg" name="Vehicle" abstractClass="true" associationsIn="_PpfQAPJ3Ee23mfmULa5lzg" subclassedBy="_NfcaUPJ3Ee23mfmULa5lzg _NfdocPJ3Ee23mfmULa5lzg">
+    <modelElement href="ParkingLotGUI.uml#_Lu4boPJ3Ee23mfmULa5lzg"/>
+    <visualProperties xmi:id="_QXFV0fJ3Ee23mfmULa5lzg" position="1161.0,81.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_QXF84PJ3Ee23mfmULa5lzg" label="+"/>
+    <attributes xmi:id="_QXF84fJ3Ee23mfmULa5lzg" name="licensePlate">
+      <modelElement href="ParkingLotGUI.uml#_QVbwAPJ3Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_QXF84vJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_QXF84_J3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <type xmi:id="_QXF85PJ3Ee23mfmULa5lzg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_QXF85fJ3Ee23mfmULa5lzg" name="Vehicle">
+      <modelElement href="ParkingLotGUI.uml#_QVZTwPJ3Ee23mfmULa5lzg"/>
+      <keywords xmi:id="_QXF85vJ3Ee23mfmULa5lzg" keyword="create"/>
+      <visibility xmi:id="_QXF85_J3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_QXF86PJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_QXF86fJ3Ee23mfmULa5lzg">
+        <modelElement href="ParkingLotGUI.uml#_QVZ60vJ3Ee23mfmULa5lzg"/>
+        <type xmi:id="_QXF86vJ3Ee23mfmULa5lzg" name="Vehicle">
+          <modelElement href="ParkingLotGUI.uml#_Lu4boPJ3Ee23mfmULa5lzg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_QXF86_J3Ee23mfmULa5lzg" name="licensePlate">
+        <modelElement href="ParkingLotGUI.uml#_QVZTwfJ3Ee23mfmULa5lzg"/>
+        <cardinality xmi:id="_QXF87PJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+        <type xmi:id="_QXF87fJ3Ee23mfmULa5lzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_LC8isPJ3Ee23mfmULa5lzg" name="Application">
+    <modelElement href="ParkingLotGUI.uml#_LB0hUPJ3Ee23mfmULa5lzg"/>
+    <visualProperties xmi:id="_LC8isfJ3Ee23mfmULa5lzg" position="41.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_LC8isvJ3Ee23mfmULa5lzg" label="+"/>
+    <operations xmi:id="_LC8is_J3Ee23mfmULa5lzg" name="main" staticOperation="true">
+      <modelElement href="ParkingLotGUI.uml#_LB1vcPJ3Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_LC8itPJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_LC8itfJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_LC8itvJ3Ee23mfmULa5lzg" name="args">
+        <modelElement href="ParkingLotGUI.uml#_LB2WgPJ3Ee23mfmULa5lzg"/>
+        <cardinality xmi:id="_LC8it_J3Ee23mfmULa5lzg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_LC8iuPJ3Ee23mfmULa5lzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Mm6P0PJ3Ee23mfmULa5lzg" name="GarageDriver">
+    <modelElement href="ParkingLotGUI.uml#_Ml1RwPJ3Ee23mfmULa5lzg"/>
+    <visualProperties xmi:id="_Mm6P0fJ3Ee23mfmULa5lzg" position="44.0,168.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Mm6P0vJ3Ee23mfmULa5lzg" label="+"/>
+    <operations xmi:id="_Mm6P0_J3Ee23mfmULa5lzg" name="run">
+      <modelElement href="ParkingLotGUI.uml#_Ml2f4PJ3Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_Mm6P1PJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_Mm6P1fJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Lv4hMPJ3Ee23mfmULa5lzg" name="Car" generalizations="_NfdocPJ3Ee23mfmULa5lzg">
+    <modelElement href="ParkingLotGUI.uml#_LupLEPJ3Ee23mfmULa5lzg"/>
+    <visualProperties xmi:id="_Lv4hMfJ3Ee23mfmULa5lzg" position="635.0,327.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Lv4hMvJ3Ee23mfmULa5lzg" label="~"/>
+    <operations xmi:id="_Lv4hM_J3Ee23mfmULa5lzg" name="Car">
+      <modelElement href="ParkingLotGUI.uml#_LuxG4PJ3Ee23mfmULa5lzg"/>
+      <keywords xmi:id="_Lv4hNPJ3Ee23mfmULa5lzg" keyword="create"/>
+      <visibility xmi:id="_Lv4hNfJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_Lv4hNvJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lv4hN_J3Ee23mfmULa5lzg">
+        <modelElement href="ParkingLotGUI.uml#_Luxt8vJ3Ee23mfmULa5lzg"/>
+        <type xmi:id="_Lv4hOPJ3Ee23mfmULa5lzg" name="Car">
+          <modelElement href="ParkingLotGUI.uml#_LupLEPJ3Ee23mfmULa5lzg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lv4hOfJ3Ee23mfmULa5lzg" name="licensePlate">
+        <modelElement href="ParkingLotGUI.uml#_LuxG4fJ3Ee23mfmULa5lzg"/>
+        <cardinality xmi:id="_Lv4hOvJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+        <type xmi:id="_Lv4hO_J3Ee23mfmULa5lzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Nfe2kPJ3Ee23mfmULa5lzg" name="Motorcycle" generalizations="_NfcaUPJ3Ee23mfmULa5lzg">
+    <modelElement href="ParkingLotGUI.uml#_Ndq4sPJ3Ee23mfmULa5lzg"/>
+    <visualProperties xmi:id="_Nfe2kfJ3Ee23mfmULa5lzg" position="917.0,327.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Nfe2kvJ3Ee23mfmULa5lzg" label="~"/>
+    <operations xmi:id="_Nfe2k_J3Ee23mfmULa5lzg" name="Motorcycle">
+      <modelElement href="ParkingLotGUI.uml#_NdsG0PJ3Ee23mfmULa5lzg"/>
+      <keywords xmi:id="_Nfe2lPJ3Ee23mfmULa5lzg" keyword="create"/>
+      <visibility xmi:id="_Nfe2lfJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_Nfe2lvJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Nfe2l_J3Ee23mfmULa5lzg">
+        <modelElement href="ParkingLotGUI.uml#_Ndst4PJ3Ee23mfmULa5lzg"/>
+        <type xmi:id="_Nfe2mPJ3Ee23mfmULa5lzg" name="Motorcycle">
+          <modelElement href="ParkingLotGUI.uml#_Ndq4sPJ3Ee23mfmULa5lzg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Nfe2mfJ3Ee23mfmULa5lzg" name="licensePlate">
+        <modelElement href="ParkingLotGUI.uml#_NdsG0fJ3Ee23mfmULa5lzg"/>
+        <cardinality xmi:id="_Nfe2mvJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+        <type xmi:id="_Nfe2m_J3Ee23mfmULa5lzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Ppi6YPJ3Ee23mfmULa5lzg" name="ParkingSpace" associationsIn="_OkdhoPJ3Ee23mfmULa5lzg" associationsOut="_PpfQAPJ3Ee23mfmULa5lzg">
+    <modelElement href="ParkingLotGUI.uml#_OicIYPJ3Ee23mfmULa5lzg"/>
+    <visualProperties xmi:id="_Ppi6YfJ3Ee23mfmULa5lzg" position="1261.0,354.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Ppi6YvJ3Ee23mfmULa5lzg" label="~"/>
+    <attributes xmi:id="_Ppi6Y_J3Ee23mfmULa5lzg" name="vehicle">
+      <modelElement href="ParkingLotGUI.uml#_PntuYPJ3Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_Ppi6ZPJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_Ppi6ZfJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <type xmi:id="_Ppi6ZvJ3Ee23mfmULa5lzg" name="Vehicle">
+        <modelElement href="ParkingLotGUI.uml#_Lu4boPJ3Ee23mfmULa5lzg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ppi6Z_J3Ee23mfmULa5lzg" name="isOccupied">
+      <modelElement href="ParkingLotGUI.uml#_PntuYfJ3Ee23mfmULa5lzg"/>
+      <stereotypes xmi:id="_Ppi6aPJ3Ee23mfmULa5lzg" name="LegacyStyledElement">
+        <modelElement href="ParkingLotGUI.uml#_PnuVcPJ3Ee23mfmULa5lzg"/>
+      </stereotypes>
+      <visibility xmi:id="_Ppi6afJ3Ee23mfmULa5lzg" label="-"/>
+      <cardinality xmi:id="_Ppi6avJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <type xmi:id="_Ppi6a_J3Ee23mfmULa5lzg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Ppi6bPJ3Ee23mfmULa5lzg" name="ParkingSpace">
+      <modelElement href="ParkingLotGUI.uml#_PnaMYPJ3Ee23mfmULa5lzg"/>
+      <keywords xmi:id="_Ppi6bfJ3Ee23mfmULa5lzg" keyword="create"/>
+      <visibility xmi:id="_Ppi6bvJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_Ppi6b_J3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ppi6cPJ3Ee23mfmULa5lzg">
+        <modelElement href="ParkingLotGUI.uml#_PnazcfJ3Ee23mfmULa5lzg"/>
+        <type xmi:id="_Ppi6cfJ3Ee23mfmULa5lzg" name="ParkingSpace">
+          <modelElement href="ParkingLotGUI.uml#_OicIYPJ3Ee23mfmULa5lzg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ppi6cvJ3Ee23mfmULa5lzg" name="isOccupied">
+      <modelElement href="ParkingLotGUI.uml#_PnbagPJ3Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_Ppi6c_J3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_Ppi6dPJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ppi6dfJ3Ee23mfmULa5lzg">
+        <modelElement href="ParkingLotGUI.uml#_PncBkPJ3Ee23mfmULa5lzg"/>
+        <type xmi:id="_Ppi6dvJ3Ee23mfmULa5lzg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ppi6d_J3Ee23mfmULa5lzg" name="removeVehicle">
+      <modelElement href="ParkingLotGUI.uml#_Pnd2wPJ3Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_Ppi6ePJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_Ppi6efJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Ppi6evJ3Ee23mfmULa5lzg" name="parkVehicle">
+      <modelElement href="ParkingLotGUI.uml#_PnsgQPJ3Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_Ppi6e_J3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_Ppi6fPJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Ppi6ffJ3Ee23mfmULa5lzg" name="vehicle">
+        <modelElement href="ParkingLotGUI.uml#_PnsgQfJ3Ee23mfmULa5lzg"/>
+        <cardinality xmi:id="_Ppi6fvJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+        <type xmi:id="_Ppi6f_J3Ee23mfmULa5lzg" name="Vehicle">
+          <modelElement href="ParkingLotGUI.uml#_Lu4boPJ3Ee23mfmULa5lzg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_7jbgufJ2Ee23mfmULa5lzg" name="GarageGUI" associationsOut="_7jWoMPJ2Ee23mfmULa5lzg _7jYdYPJ2Ee23mfmULa5lzg _7jaSkPJ2Ee23mfmULa5lzg _7jbgsPJ2Ee23mfmULa5lzg">
+    <modelElement href="ParkingLotGUI.uml#_66XVkPJ2Ee23mfmULa5lzg"/>
+    <visualProperties xmi:id="_7jbguvJ2Ee23mfmULa5lzg" position="244.0,11.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_7jbgu_J2Ee23mfmULa5lzg" label="+"/>
+    <attributes xmi:id="_7jbgvPJ2Ee23mfmULa5lzg" name="frame">
+      <modelElement href="ParkingLotGUI.uml#_69jzgPJ2Ee23mfmULa5lzg"/>
+      <stereotypes xmi:id="_7jbgvfJ2Ee23mfmULa5lzg" name="LegacyStyledElement">
+        <modelElement href="ParkingLotGUI.uml#_69lBoPJ2Ee23mfmULa5lzg"/>
+      </stereotypes>
+      <visibility xmi:id="_7jbgvvJ2Ee23mfmULa5lzg" label="-"/>
+      <cardinality xmi:id="_7jbgv_J2Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <type xmi:id="_7jbgwPJ2Ee23mfmULa5lzg" name="JFrame">
+        <modelElement href="ParkingLotGUI.uml#_69aCgPJ2Ee23mfmULa5lzg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7jbgwfJ2Ee23mfmULa5lzg" name="licensePlateField">
+      <modelElement href="ParkingLotGUI.uml#_69lBofJ2Ee23mfmULa5lzg"/>
+      <stereotypes xmi:id="_7jbgwvJ2Ee23mfmULa5lzg" name="LegacyStyledElement">
+        <modelElement href="ParkingLotGUI.uml#_69losPJ2Ee23mfmULa5lzg"/>
+      </stereotypes>
+      <visibility xmi:id="_7jbgw_J2Ee23mfmULa5lzg" label="-"/>
+      <cardinality xmi:id="_7jbgxPJ2Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <type xmi:id="_7jbgxfJ2Ee23mfmULa5lzg" name="JTextField">
+        <modelElement href="ParkingLotGUI.uml#_69cewPJ2Ee23mfmULa5lzg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7jbgxvJ2Ee23mfmULa5lzg" name="outputArea">
+      <modelElement href="ParkingLotGUI.uml#_69mPwPJ2Ee23mfmULa5lzg"/>
+      <stereotypes xmi:id="_7jbgx_J2Ee23mfmULa5lzg" name="LegacyStyledElement">
+        <modelElement href="ParkingLotGUI.uml#_69pTEPJ2Ee23mfmULa5lzg"/>
+      </stereotypes>
+      <visibility xmi:id="_7jbgyPJ2Ee23mfmULa5lzg" label="-"/>
+      <cardinality xmi:id="_7jbgyfJ2Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <type xmi:id="_7jbgyvJ2Ee23mfmULa5lzg" name="JTextArea">
+        <modelElement href="ParkingLotGUI.uml#_69eT8PJ2Ee23mfmULa5lzg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7jbgy_J2Ee23mfmULa5lzg" name="garage">
+      <modelElement href="ParkingLotGUI.uml#_69rIQPJ2Ee23mfmULa5lzg"/>
+      <stereotypes xmi:id="_7jbgzPJ2Ee23mfmULa5lzg" name="LegacyStyledElement">
+        <modelElement href="ParkingLotGUI.uml#_69sWYPJ2Ee23mfmULa5lzg"/>
+      </stereotypes>
+      <visibility xmi:id="_7jbgzfJ2Ee23mfmULa5lzg" label="-"/>
+      <cardinality xmi:id="_7jbgzvJ2Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <type xmi:id="_7jbgz_J2Ee23mfmULa5lzg" name="Garage">
+        <modelElement href="ParkingLotGUI.uml#_69gwMPJ2Ee23mfmULa5lzg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_7jbg0PJ2Ee23mfmULa5lzg" name="GarageGUI">
+      <modelElement href="ParkingLotGUI.uml#_66mmIPJ2Ee23mfmULa5lzg"/>
+      <keywords xmi:id="_7jbg0fJ2Ee23mfmULa5lzg" keyword="create"/>
+      <visibility xmi:id="_7jbg0vJ2Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_7jbg0_J2Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_7jcHwPJ2Ee23mfmULa5lzg">
+        <modelElement href="ParkingLotGUI.uml#_66yMUfJ2Ee23mfmULa5lzg"/>
+        <type xmi:id="_7jcHwfJ2Ee23mfmULa5lzg" name="GarageGUI">
+          <modelElement href="ParkingLotGUI.uml#_66XVkPJ2Ee23mfmULa5lzg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_7jcHwvJ2Ee23mfmULa5lzg" name="initComponents">
+      <modelElement href="ParkingLotGUI.uml#_66yzYPJ2Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_7jcHw_J2Ee23mfmULa5lzg" label="-"/>
+      <cardinality xmi:id="_7jcHxPJ2Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_7jcHxfJ2Ee23mfmULa5lzg" name="parkCar">
+      <modelElement href="ParkingLotGUI.uml#_66zacPJ2Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_7jcHxvJ2Ee23mfmULa5lzg" label="-"/>
+      <cardinality xmi:id="_7jcHx_J2Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_7jcHyPJ2Ee23mfmULa5lzg" name="parkMotorcycle">
+      <modelElement href="ParkingLotGUI.uml#_660okPJ2Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_7jcHyfJ2Ee23mfmULa5lzg" label="-"/>
+      <cardinality xmi:id="_7jcHyvJ2Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_7jcHy_J2Ee23mfmULa5lzg" name="removeVehicle">
+      <modelElement href="ParkingLotGUI.uml#_661PoPJ2Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_7jcHzPJ2Ee23mfmULa5lzg" label="-"/>
+      <cardinality xmi:id="_7jcHzfJ2Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_7jcHzvJ2Ee23mfmULa5lzg" name="main" staticOperation="true">
+      <modelElement href="ParkingLotGUI.uml#_662dwPJ2Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_7jcHz_J2Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_7jcH0PJ2Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_7jcH0fJ2Ee23mfmULa5lzg" name="args">
+        <modelElement href="ParkingLotGUI.uml#_662dwfJ2Ee23mfmULa5lzg"/>
+        <cardinality xmi:id="_7jcH0vJ2Ee23mfmULa5lzg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_7jcH0_J2Ee23mfmULa5lzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_OkdhqfJ3Ee23mfmULa5lzg" name="ParkingLot" associationsIn="_MI-WoPJ3Ee23mfmULa5lzg" associationsOut="_OkdhoPJ3Ee23mfmULa5lzg">
+    <modelElement href="ParkingLotGUI.uml#_MHjaUPJ3Ee23mfmULa5lzg"/>
+    <visualProperties xmi:id="_OkdhqvJ3Ee23mfmULa5lzg" position="236.0,246.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Okdhq_J3Ee23mfmULa5lzg" label="~"/>
+    <attributes xmi:id="_OkdhrPJ3Ee23mfmULa5lzg" name="floors">
+      <modelElement href="ParkingLotGUI.uml#_OiekoPJ3Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_OkdhrfJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_OkdhrvJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <type xmi:id="_Okdhr_J3Ee23mfmULa5lzg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OkdhsPJ3Ee23mfmULa5lzg" name="spacesPerFloor">
+      <modelElement href="ParkingLotGUI.uml#_OifLsPJ3Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_OkdhsfJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_OkdhsvJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <type xmi:id="_Okdhs_J3Ee23mfmULa5lzg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_OkdhtPJ3Ee23mfmULa5lzg" name="parkingSpaces">
+      <modelElement href="ParkingLotGUI.uml#_OifLsfJ3Ee23mfmULa5lzg"/>
+      <stereotypes xmi:id="_OkdhtfJ3Ee23mfmULa5lzg" name="Array">
+        <modelElement href="ParkingLotGUI.uml#_OifywPJ3Ee23mfmULa5lzg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_OkdhtvJ3Ee23mfmULa5lzg" name="LegacyStyledElement">
+        <modelElement href="ParkingLotGUI.uml#_OigZ0PJ3Ee23mfmULa5lzg"/>
+      </stereotypes>
+      <visibility xmi:id="_OkeIsPJ3Ee23mfmULa5lzg" label="-"/>
+      <cardinality xmi:id="_OkeIsfJ3Ee23mfmULa5lzg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_OkeIsvJ3Ee23mfmULa5lzg" name="ParkingSpace">
+        <modelElement href="ParkingLotGUI.uml#_OicIYPJ3Ee23mfmULa5lzg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_OkeIs_J3Ee23mfmULa5lzg" name="ParkingLot">
+      <modelElement href="ParkingLotGUI.uml#_OiImYPJ3Ee23mfmULa5lzg"/>
+      <keywords xmi:id="_OkeItPJ3Ee23mfmULa5lzg" keyword="create"/>
+      <visibility xmi:id="_OkeItfJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_OkeItvJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OkeIt_J3Ee23mfmULa5lzg">
+        <modelElement href="ParkingLotGUI.uml#_OiJNcvJ3Ee23mfmULa5lzg"/>
+        <type xmi:id="_OkeIuPJ3Ee23mfmULa5lzg" name="ParkingLot">
+          <modelElement href="ParkingLotGUI.uml#_MHjaUPJ3Ee23mfmULa5lzg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OkeIufJ3Ee23mfmULa5lzg" name="floors">
+        <modelElement href="ParkingLotGUI.uml#_OiImYfJ3Ee23mfmULa5lzg"/>
+        <cardinality xmi:id="_OkeIuvJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+        <type xmi:id="_OkeIu_J3Ee23mfmULa5lzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OkeIvPJ3Ee23mfmULa5lzg" name="spacesPerFloor">
+        <modelElement href="ParkingLotGUI.uml#_OiImYvJ3Ee23mfmULa5lzg"/>
+        <cardinality xmi:id="_OkeIvfJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+        <type xmi:id="_OkeIvvJ3Ee23mfmULa5lzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OkeIv_J3Ee23mfmULa5lzg" name="getParkingSpace">
+      <modelElement href="ParkingLotGUI.uml#_OiKbkPJ3Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_OkeIwPJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_OkeIwfJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OkeIwvJ3Ee23mfmULa5lzg">
+        <modelElement href="ParkingLotGUI.uml#_OidWgPJ3Ee23mfmULa5lzg"/>
+        <type xmi:id="_OkeIw_J3Ee23mfmULa5lzg" name="ParkingSpace">
+          <modelElement href="ParkingLotGUI.uml#_OicIYPJ3Ee23mfmULa5lzg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OkeIxPJ3Ee23mfmULa5lzg" name="floor">
+        <modelElement href="ParkingLotGUI.uml#_OiKbkfJ3Ee23mfmULa5lzg"/>
+        <cardinality xmi:id="_OkeIxfJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+        <type xmi:id="_OkeIxvJ3Ee23mfmULa5lzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_OkeIx_J3Ee23mfmULa5lzg" name="space">
+        <modelElement href="ParkingLotGUI.uml#_OiKbkvJ3Ee23mfmULa5lzg"/>
+        <cardinality xmi:id="_OkeIyPJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+        <type xmi:id="_OkeIyfJ3Ee23mfmULa5lzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_OkeIyvJ3Ee23mfmULa5lzg" name="findEmptySpace">
+      <modelElement href="ParkingLotGUI.uml#_OiLpsPJ3Ee23mfmULa5lzg"/>
+      <stereotypes xmi:id="_OkeIy_J3Ee23mfmULa5lzg" name="Array">
+        <modelElement href="ParkingLotGUI.uml#_OiMQwPJ3Ee23mfmULa5lzg"/>
+      </stereotypes>
+      <visibility xmi:id="_OkeIzPJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_OkeIzfJ3Ee23mfmULa5lzg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_OkeIzvJ3Ee23mfmULa5lzg">
+        <modelElement href="ParkingLotGUI.uml#_OiLpsfJ3Ee23mfmULa5lzg"/>
+        <type xmi:id="_OkeIz_J3Ee23mfmULa5lzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OkeI0PJ3Ee23mfmULa5lzg" name="getNumberOfFreeSpaces">
+      <modelElement href="ParkingLotGUI.uml#_OiMQwfJ3Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_OkeI0fJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_OkeI0vJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_OkeI0_J3Ee23mfmULa5lzg">
+        <modelElement href="ParkingLotGUI.uml#_OiM30PJ3Ee23mfmULa5lzg"/>
+        <type xmi:id="_OkeI1PJ3Ee23mfmULa5lzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_OkeI1fJ3Ee23mfmULa5lzg" name="findVehicle">
+      <modelElement href="ParkingLotGUI.uml#_OiM30fJ3Ee23mfmULa5lzg"/>
+      <stereotypes xmi:id="_OkeI1vJ3Ee23mfmULa5lzg" name="Array">
+        <modelElement href="ParkingLotGUI.uml#_OiNe4vJ3Ee23mfmULa5lzg"/>
+      </stereotypes>
+      <visibility xmi:id="_OkeI1_J3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_OkeI2PJ3Ee23mfmULa5lzg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_OkeI2fJ3Ee23mfmULa5lzg">
+        <modelElement href="ParkingLotGUI.uml#_OiNe4PJ3Ee23mfmULa5lzg"/>
+        <type xmi:id="_OkeI2vJ3Ee23mfmULa5lzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_OkeI2_J3Ee23mfmULa5lzg" name="licensePlate">
+        <modelElement href="ParkingLotGUI.uml#_OiM30vJ3Ee23mfmULa5lzg"/>
+        <cardinality xmi:id="_OkeI3PJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+        <type xmi:id="_OkeI3fJ3Ee23mfmULa5lzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ICwvMPJ3Ee23mfmULa5lzg" name="GarageManager">
+    <modelElement href="ParkingLotGUI.uml#_IBs_QPJ3Ee23mfmULa5lzg"/>
+    <visualProperties xmi:id="_ICwvMfJ3Ee23mfmULa5lzg" position="24.0,293.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ICwvMvJ3Ee23mfmULa5lzg" label="~"/>
+    <operations xmi:id="_ICwvM_J3Ee23mfmULa5lzg" name="main" staticOperation="true">
+      <modelElement href="ParkingLotGUI.uml#_IBu0cPJ3Ee23mfmULa5lzg"/>
+      <visibility xmi:id="_ICwvNPJ3Ee23mfmULa5lzg" label="+"/>
+      <cardinality xmi:id="_ICwvNfJ3Ee23mfmULa5lzg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ICwvNvJ3Ee23mfmULa5lzg" name="args">
+        <modelElement href="ParkingLotGUI.uml#_IBu0cfJ3Ee23mfmULa5lzg"/>
+        <cardinality xmi:id="_ICwvN_J3Ee23mfmULa5lzg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_ICwvOPJ3Ee23mfmULa5lzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
