@@ -95,8 +95,6 @@ Vielen Dank für Ihr Interesse an unserem Parkhaus-Simulationsprogramm.
 
 Mit freundlichen Grüßen,
 
+Maximilian Trustworth
 
 
-Daniel-Alfonsin Massa
-[Entwickler / Unternehmen]
-[Kontaktinformationen]
